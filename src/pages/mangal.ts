@@ -9,7 +9,7 @@ export function loadMangalContent() {
 
     <section class="hero">
       <video autoplay muted loop playsinline class="background-video">
-        <source src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/video-bg.mp4" type="video/mp4">
+        <source src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/video-bg.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay">
         <h1>Mangal Grah Mandir</h1>
@@ -27,7 +27,7 @@ export function loadMangalContent() {
 
     <section class="intro">
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/temple.jpg" alt="Mangal Grah Mandir">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/temple.jpg" alt="Mangal Grah Mandir">
         <div class="text">
           <h2>About Mangal Grah Mandir</h2>
           <p>
@@ -38,7 +38,7 @@ export function loadMangalContent() {
         </div>
       </div>
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/surrounding.jpg" alt="Temple Surroundings">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/surrounding.jpg" alt="Temple Surroundings">
         <div class="text">
           <h2>Experience the Surroundings</h2>
           <p>
@@ -49,7 +49,7 @@ export function loadMangalContent() {
         </div>
       </div>
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/rituals.jpg" alt="Rituals & Ceremonies">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/rituals.jpg" alt="Rituals & Ceremonies">
         <div class="text">
           <h2>Rituals & Ceremonies</h2>
           <p>
@@ -59,7 +59,7 @@ export function loadMangalContent() {
         </div>
       </div>
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/celebration.jpg" alt="Temple Festivals">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/celebration.jpg" alt="Temple Festivals">
         <div class="text">
           <h2>Festivals & Celebrations</h2>
           <p>
@@ -75,8 +75,8 @@ export function loadMangalContent() {
 
   // Initialize panorama viewer
   const imageList = [
-    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/pano1.jpg',
-    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/pano2.jpg'
+    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/pano1.jpg',
+    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/pano2.jpg'
   ];
   let currentIndex = 0;
   

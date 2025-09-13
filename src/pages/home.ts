@@ -9,7 +9,7 @@ export function loadHomeContent() {
     <!-- Hero Section -->
     <section class="hero">
       <video autoplay muted loop playsinline class="background-video">
-        <source src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/video-bg.mp4" type="video/mp4">
+        <source src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/video-bg.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay">
         <h1>Divya Drishti</h1>
@@ -39,18 +39,18 @@ export function loadHomeContent() {
   <!-- Place Cards Section -->
   <section class="places-grid">
     <a href="#" class="place-card" onclick="loadMangalContent();">
-      <img src="https://robokart.com/360/assets/temple.jpg" alt="Mangal Grah Mandir">
+      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/temple.jpg" alt="Mangal Grah Mandir">
       <div class="overlay">Mangal Grah Mandir</div>
     </a>
 
     <div class="place-card locked">
-      <img src="https://robokart.com/360/assets/ellora.jpg" alt="Ellora Caves">
+      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/ellora.jpg" alt="Ellora Caves">
       <div class="overlay">Ellora Caves</div>
       <div class="locked-text">Coming Soon</div>
     </div>
 
     <div class="place-card locked">
-      <img src="https://robokart.com/360/assets/tulja.jpg" alt="Tulja Bhavani Temple">
+      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/tulja.jpg" alt="Tulja Bhavani Temple">
       <div class="overlay">Tulja Bhavani Temple</div>
       <div class="locked-text">Coming Soon</div>
     </div>
@@ -60,7 +60,7 @@ export function loadHomeContent() {
     <!-- Dynamic Info Section -->
     <section class="intro">
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/temple.jpg" alt="Our Vision">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/temple.jpg" alt="Our Vision">
         <div class="text">
           <h2>Our Vision</h2>
           <p>
@@ -72,7 +72,7 @@ export function loadHomeContent() {
       </div>
 
       <div class="intro-item reverse">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/surrounding.jpg" alt="Global Destinations">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/surrounding.jpg" alt="Global Destinations">
         <div class="text">
           <h2>Global Destinations</h2>
           <p>
@@ -84,7 +84,7 @@ export function loadHomeContent() {
       </div>
 
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/rituals.jpg" alt="Interactive Learning">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/rituals.jpg" alt="Interactive Learning">
         <div class="text">
           <h2>Interactive Learning</h2>
           <p>
@@ -96,7 +96,7 @@ export function loadHomeContent() {
       </div>
 
       <div class="intro-item reverse">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/celebration.jpg" alt="Community Engagement">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/celebration.jpg" alt="Community Engagement">
         <div class="text">
           <h2>Community Engagement</h2>
           <p>
@@ -111,8 +111,8 @@ export function loadHomeContent() {
 
   // Initialize Panorama Viewer
   const imageList = [
-    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/pano1.jpg',
-    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/pano2.jpg'
+    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/pano1.jpg',
+    'https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/pano2.jpg'
   ];
   let currentIndex = 0;
 
