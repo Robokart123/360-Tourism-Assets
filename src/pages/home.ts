@@ -12,7 +12,7 @@ export function loadHomeContent() {
         <source src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/video-bg.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay">
-        <h1>Experience the World in 360°</h1>
+        <h1>Divya Drishti</h1>
       </div>
     </section>
 
@@ -30,74 +30,81 @@ export function loadHomeContent() {
     <section id="about" class="about-section">
       <h2>What We Do</h2>
       <p>
-        At 360 Tourism, we offer an immersive and interactive experience of the world's most captivating destinations.
+        At Divya Drishti, we offer an immersive and interactive experience of the world's most captivating destinations.
         Explore famous landmarks, sacred temples, and cultural heritage sites in 360°, bringing the beauty of travel right to your screen.
         Our platform is dedicated to delivering high-quality panoramic experiences that inspire curiosity and adventure.
       </p>
     </section>
 
-    <!-- Intro Panels Section -->
+  <!-- Place Cards Section -->
+  <section class="places-grid">
+    <a href="#" class="place-card" onclick="loadMangalContent();">
+      <img src="https://robokart.com/360/assets/temple.jpg" alt="Mangal Grah Mandir">
+      <div class="overlay">Mangal Grah Mandir</div>
+    </a>
+
+    <div class="place-card locked">
+      <img src="https://robokart.com/360/assets/ellora.jpg" alt="Ellora Caves">
+      <div class="overlay">Ellora Caves</div>
+      <div class="locked-text">Coming Soon</div>
+    </div>
+
+    <div class="place-card locked">
+      <img src="https://robokart.com/360/assets/tulja.jpg" alt="Tulja Bhavani Temple">
+      <div class="overlay">Tulja Bhavani Temple</div>
+      <div class="locked-text">Coming Soon</div>
+    </div>
+  </section>
+
+
+    <!-- Dynamic Info Section -->
     <section class="intro">
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/temple.jpg" alt="About Us">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/temple.jpg" alt="Our Vision">
         <div class="text">
-          <h2>About 360 Tourism</h2>
+          <h2>Our Vision</h2>
           <p>
-            Welcome to 360 Tourism — your gateway to exploring the beauty and heritage of the world through cutting-edge panoramic technology.
-            Our mission is to make travel and cultural experiences accessible to everyone, regardless of location.
+            We aim to bridge the gap between technology and culture by offering panoramic experiences
+            that connect travelers, scholars, and enthusiasts. Our interactive tours make history, architecture,
+            and spirituality accessible to everyone, from the comfort of their home.
+          </p>
+        </div>
+      </div>
+
+      <div class="intro-item reverse">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/surrounding.jpg" alt="Global Destinations">
+        <div class="text">
+          <h2>Global Destinations</h2>
+          <p>
+            Explore a wide range of spiritual and cultural destinations from around the globe.
+            Our platform offers meticulously curated 360° tours that highlight architectural wonders,
+            natural landscapes, and places of worship, bringing you closer to world heritage.
           </p>
         </div>
       </div>
 
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/surrounding.jpg" alt="Explore">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/rituals.jpg" alt="Interactive Learning">
         <div class="text">
-          <h2>Explore Destinations</h2>
+          <h2>Interactive Learning</h2>
           <p>
-            Discover historical landmarks, spiritual sites, and natural wonders from the comfort of your home.
-            Our 360° views allow you to feel like you're walking through sacred temples, exploring mountains, or wandering ancient cities.
+            Our tours are not just visual experiences — they are learning journeys.
+            Dive deep into rituals, traditions, and ceremonies with immersive details,
+            enabling you to understand the cultural and historical significance of each site.
           </p>
         </div>
       </div>
 
-      <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/rituals.jpg" alt="Immersive Experience">
+      <div class="intro-item reverse">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/celebration.jpg" alt="Community Engagement">
         <div class="text">
-          <h2>Immersive Experience</h2>
+          <h2>Community Engagement</h2>
           <p>
-            Engage in virtual ceremonies, witness rituals, and enjoy cultural festivities through high-quality, interactive panoramic views.
-            Experience the spiritual aura and vibrancy of life at different locations around the globe.
+            Join a global community of explorers, historians, and spiritual seekers.
+            Share experiences, insights, and stories while contributing to a growing archive of shared knowledge.
+            Our platform fosters cultural appreciation and mutual understanding.
           </p>
         </div>
-      </div>
-
-      <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/celebration.jpg" alt="Connect">
-        <div class="text">
-          <h2>Connect & Learn</h2>
-          <p>
-            Our platform not only offers exploration but also connects you to global cultures, traditions, and histories.
-            Whether for learning or leisure, 360 Tourism is designed to expand your horizons and enrich your knowledge.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Place Cards Section -->
-    <section class="places-grid">
-      <a href="mangal.html" class="place-card">
-        <img src="https://robokart.com/360/assets/temple.jpg" alt="Mangal Grah Mandir">
-        <div class="overlay">Mangal Grah Mandir</div>
-      </a>
-      <div class="place-card locked">
-        <img src="https://robokart.com/360/assets/ellora.jpg" alt="Ellora Caves">
-        <div class="overlay">Ellora Caves</div>
-        <div class="locked-text">Coming Soon</div>
-      </div>
-      <div class="place-card locked">
-        <img src="https://robokart.com/360/assets/tulja.jpg" alt="Tulja Bhavani Temple">
-        <div class="overlay">Tulja Bhavani Temple</div>
-        <div class="locked-text">Coming Soon</div>
       </div>
     </section>
   `;

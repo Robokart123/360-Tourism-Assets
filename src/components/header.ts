@@ -2,7 +2,7 @@ export function loadHeader() {
   const header = document.createElement('header');
   header.className = 'glass-header';
   header.innerHTML = `
-    <div class="logo">360 Tourism</div>
+    <div class="logo">Divya Drishti</div>
     <nav>
       <a href="/index.html">Home</a>
       <a href="#viewer">Explore</a>
