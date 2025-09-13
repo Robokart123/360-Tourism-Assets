@@ -62,7 +62,7 @@ export function loadHomeContent() {
     <!-- Dynamic Info Section -->
     <section class="intro">
       <div class="intro-item">
-        <img src="0" alt="Our Vision">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Our_vision_new.svg" alt="Our Vision">
         <div class="text">
           <h2>Our Vision</h2>
           <p>
@@ -98,7 +98,7 @@ export function loadHomeContent() {
       </div>
 
       <div class="intro-item reverse">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Community_Engagement.svg" alt="Community Engagement">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Community_engagement.svg" alt="Community Engagement">
         <div class="text">
           <h2>Community Engagement</h2>
           <p>
