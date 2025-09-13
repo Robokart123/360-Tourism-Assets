@@ -26,15 +26,7 @@ export function loadHomeContent() {
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-      <h2>What We Do</h2>
-      <p>
-        At Divya Drishti, we offer an immersive and interactive experience of the world's most captivating destinations.
-        Explore famous landmarks, sacred temples, and cultural heritage sites in 360°, bringing the beauty of travel right to your screen.
-        Our platform is dedicated to delivering high-quality panoramic experiences that inspire curiosity and adventure.
-      </p>
-    </section>
+
 
   <!-- Place Cards Section -->
   <section class="places-grid">
@@ -56,11 +48,21 @@ export function loadHomeContent() {
     </div>
   </section>
 
+      <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>What We Do</h2>
+      <p>
+        At Divya Drishti, we offer an immersive and interactive experience of the world's most captivating destinations.
+        Explore famous landmarks, sacred temples, and cultural heritage sites in 360°, bringing the beauty of travel right to your screen.
+        Our platform is dedicated to delivering high-quality panoramic experiences that inspire curiosity and adventure.
+      </p>
+    </section>
+
 
     <!-- Dynamic Info Section -->
     <section class="intro">
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/temple.jpg" alt="Our Vision">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Our_vision.svg" alt="Our Vision">
         <div class="text">
           <h2>Our Vision</h2>
           <p>
@@ -72,7 +74,7 @@ export function loadHomeContent() {
       </div>
 
       <div class="intro-item reverse">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/surrounding.jpg" alt="Global Destinations">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Global_destinations.svg" alt="Global Destinations">
         <div class="text">
           <h2>Global Destinations</h2>
           <p>
@@ -84,7 +86,7 @@ export function loadHomeContent() {
       </div>
 
       <div class="intro-item">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/rituals.jpg" alt="Interactive Learning">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Interactive Learning.svg" alt="Interactive Learning">
         <div class="text">
           <h2>Interactive Learning</h2>
           <p>
@@ -96,7 +98,7 @@ export function loadHomeContent() {
       </div>
 
       <div class="intro-item reverse">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/celebration.jpg" alt="Community Engagement">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Community Engagement.svg" alt="Community Engagement">
         <div class="text">
           <h2>Community Engagement</h2>
           <p>

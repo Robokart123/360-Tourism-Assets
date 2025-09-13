@@ -69,6 +69,24 @@ export function loadMangalContent() {
         </div>
       </div>
     </section>
+    <!-- Chairman Video Section -->
+<section class="chairman-section">
+  <h2>Chairman Digambher Mhale</h2>
+  <p class="chairman-info">
+    Discover the vision and guidance of the esteemed chairman, Digambher Mhale,
+    whose leadership continues to inspire and uplift the community. Learn more
+    about his initiatives and contributions through this brief video insight.
+  </p>
+  <div class="chairman-video-container">
+<video class="chairman-video" width="60%" controls poster="https://robokart.com/360/assets/chairman.jpg" style="border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.5); cursor:pointer;">
+  <source src="https://robokart.com/360/assets/chairman.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+  </div>
+  <p class="click-note">Click on the video to play.</p>
+</section>
+
 
     <div id="footer"></div>
   `;

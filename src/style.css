@@ -247,24 +247,6 @@ body {
   color: #f5c542;
 }
 
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .intro-item {
-    flex-direction: column !important;
-    text-align: center;
-  }
-  .intro-item img {
-    width: 100%;
-    max-width: 100%;
-  }
-  .intro-item .text {
-    width: 100%;
-  }
-  #panorama {
-    height: 300px;
-  }
-}
-
 .intro {
   max-width: 1200px;
   margin: 40px auto;
@@ -304,3 +286,119 @@ body {
 .intro-item.reverse {
   flex-direction: row-reverse;
 }
+
+/* Chairman Section Styles */
+.chairman-section {
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+  background: #111;
+}
+
+.chairman-section h2 {
+  font-size: clamp(1.5em, 5vw, 2.5em); /* Minimum 1.5em, scales with 5vw, max 2.5em */
+  margin-bottom: 20px;
+}
+
+
+.chairman-info {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.chairman-video-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chairman-video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.click-note {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+	
+
+
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 4em;
+  }
+  #panorama {
+    height: 300px;
+  }
+  .intro-item {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .intro-item img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .intro-item .text {
+    width: 100%;
+  }
+  .chairman-section {
+    padding: 40px 10px;
+  }
+
+  .chairman-section h2 {
+    font-size: 1.8em;
+  }
+
+  .chairman-info {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  .glass-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .glass-header .logo {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .glass-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .glass-header nav a {
+    margin: 5px;
+    font-size: 0.9em;
+  }
+  .glass-footer {
+    padding: 10px 20px;
+  }
+
+  .glass-footer p {
+    font-size: 0.9em;
+  }
+
+  .glass-footer .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .glass-footer .socials a {
+    font-size: 0.9em;
+  }
+}
+  
