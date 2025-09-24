@@ -116,7 +116,7 @@ export function loadHomeContent() {
   <div class="thankyou-content">
     <!-- Map -->
     <div class="map">
-      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Maharashtra_map.svg" 
+      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Maharashtra_map.png" 
            alt="Maharashtra Map">
     </div>
 
@@ -134,7 +134,7 @@ export function loadHomeContent() {
       </p>
 
       <div class="minister-info">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Shambhuraj_Desai.jpg" 
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Shambhuraj_Desai.webp" 
              alt="Shambhuraj Desai" class="minister-photo">
         <div class="minister-label">
           Hon. Shambhuraj Desai <br> Tourism Minister, Maharashtra
