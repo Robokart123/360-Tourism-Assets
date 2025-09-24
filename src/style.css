@@ -326,7 +326,69 @@ body {
   font-size: 0.9em;
   color: #aaa;
 }
-	
+
+.thankyou-section {
+  padding: 60px 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 60px auto;
+  backdrop-filter: blur(6px);
+}
+
+.thankyou-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.thankyou-content .map img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.thankyou-text {
+  flex: 1;
+  min-width: 300px;
+  color: #fff;
+}
+
+.thankyou-text h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #f5c542;
+}
+
+.thankyou-text p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin-bottom: 20px;
+}
+
+.minister-photo {
+  width: 120px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.minister-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.minister-label {
+  flex: 1;
+  font-size: 1.1em;
+  color: #ddd;
+}
+
+
 
 
 /* Responsive for mobile */
@@ -399,6 +461,14 @@ body {
 
   .glass-footer .socials a {
     font-size: 0.9em;
+  }
+
+  .thankyou-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .minister-info {
+    justify-content: center;
   }
 }
   

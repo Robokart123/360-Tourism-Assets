@@ -109,6 +109,41 @@ export function loadHomeContent() {
         </div>
       </div>
     </section>
+
+    
+    <!-- Dedication / Thank You Section -->
+<section class="thankyou-section">
+  <div class="thankyou-content">
+    <!-- Map -->
+    <div class="map">
+      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Maharashtra_map.svg" 
+           alt="Maharashtra Map">
+    </div>
+
+    <!-- Text + Minister -->
+    <div class="thankyou-text">
+      <h2>A Heartfelt Thank You</h2>
+      <p>
+        We extend our sincere gratitude to the Government of Maharashtra and 
+        Hon. Tourism Minister Shambhuraj Desai for their vision, dedication, 
+        and relentless efforts in promoting cultural heritage and spiritual 
+        tourism across the state. Their leadership has been instrumental in 
+        making initiatives like <strong>Divya Drishti</strong> possible, 
+        preserving our traditions while embracing modern technology to 
+        showcase Maharashtra’s glory to the world.
+      </p>
+
+      <div class="minister-info">
+        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Shambhuraj_Desai.jpg" 
+             alt="Shambhuraj Desai" class="minister-photo">
+        <div class="minister-label">
+          Hon. Shambhuraj Desai <br> Tourism Minister, Maharashtra
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
   `;
 
   // Initialize Panorama Viewer
