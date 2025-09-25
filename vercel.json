@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/home", "destination": "/" },
+    { "source": "/mangal_grah", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
