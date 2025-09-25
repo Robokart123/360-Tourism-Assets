@@ -68,7 +68,7 @@ export function loadHomeContent() {
           <p>
             We aim to bridge the gap between technology and culture by offering panoramic experiences
             that connect travelers, scholars, and enthusiasts. Our interactive tours make history, architecture,
-            and spirituality accessible to everyone, from the comfort of their home.
+            and spirituality accessible to everyone.
           </p>
         </div>
       </div>
