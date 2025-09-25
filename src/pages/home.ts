@@ -73,17 +73,20 @@ export function loadHomeContent() {
         </div>
       </div>
 
-      <div class="intro-item reverse">
-        <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Global_destinations.svg" alt="Global Destinations">
-        <div class="text">
-          <h2>Global Destinations</h2>
-          <p>
-            Explore a wide range of spiritual and cultural destinations from around the globe.
-            Our platform offers meticulously curated 360° tours that highlight architectural wonders,
-            natural landscapes, and places of worship, bringing you closer to world heritage.
-          </p>
-        </div>
-      </div>
+<!--
+<div class="intro-item reverse">
+  <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Global_destinations.svg" alt="Global Destinations">
+  <div class="text">
+    <h2>Global Destinations</h2>
+    <p>
+      Explore a wide range of spiritual and cultural destinations from around the globe.
+      Our platform offers meticulously curated 360° tours that highlight architectural wonders,
+      natural landscapes, and places of worship, bringing you closer to world heritage.
+    </p>
+  </div>
+</div>
+-->
+
 
       <div class="intro-item">
         <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Interactive_learning_new.svg" alt="Interactive Learning">
@@ -116,7 +119,7 @@ export function loadHomeContent() {
   <div class="thankyou-content">
     <!-- Map -->
     <div class="map">
-      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Maharashtra_map.png" 
+      <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/Maharashtra_map_new.png" 
            alt="Maharashtra Map">
     </div>
 
