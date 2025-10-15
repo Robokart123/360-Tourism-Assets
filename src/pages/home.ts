@@ -30,7 +30,7 @@ export function loadHomeContent() {
 
   <!-- Place Cards Section -->
   <section class="places-grid">
-    <a href="#" class="place-card" onclick="loadMangalContent();">
+    <a href="mangal_grah" class="place-card" onclick="loadMangalContent();">
       <img src="https://cdn.jsdelivr.net/gh/Robokart123/360-Tourism-Assets@main/assets/temple.jpg" alt="Mangal Grah Mandir">
       <div class="overlay">Mangal Grah Mandir</div>
     </a>
