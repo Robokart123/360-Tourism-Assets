@@ -13,9 +13,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
 if (path === '/home' || path === '/') {
   loadHomeContent();
-} else if (path === '/mangal_grah') {
+} if (path === '/mangal_grah') {
   loadMangalContent();
-} else if (path === '/chandrayaan') {
+} if (path === '/chandrayaan') {
   loadChandrayaanContent();
 }
 });

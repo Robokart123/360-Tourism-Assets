@@ -1,4 +1,4 @@
-window.location.replace("https://robokar.com");
+window.location.replace("https://robokart.com");
 
 export function loadChandrayaanContent() {
   const app = document.getElementById('app');
