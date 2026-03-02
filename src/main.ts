@@ -14,7 +14,5 @@ window.addEventListener('DOMContentLoaded', () => {
     loadHomeContent();
   } else if (path === '/mangal_grah') {
     loadMangalContent();
-  } else {
-    loadHomeContent(); // fallback to home
   }
 });
