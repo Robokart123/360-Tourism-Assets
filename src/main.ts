@@ -3,6 +3,7 @@ import { loadHeader } from './components/header';
 import { loadFooter } from './components/footer';
 import { loadHomeContent } from './pages/home';
 import { loadMangalContent } from './pages/mangal';
+import { loadChandrayaanContent } from './pages/redirect/chandrayaan';
 
 window.addEventListener('DOMContentLoaded', () => {
   loadHeader();
@@ -10,9 +11,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const path = window.location.pathname;
 
-  if (path === '/home' || path === '/') {
-    loadHomeContent();
-  } else if (path === '/mangal_grah') {
-    loadMangalContent();
-  }
+if (path === '/home' || path === '/') {
+  loadHomeContent();
+} else if (path === '/mangal_grah') {
+  loadMangalContent();
+} else if (path === '/chandrayaan') {
+  loadChandrayaanContent();
+}
 });
