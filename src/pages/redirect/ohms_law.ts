@@ -1,3 +1,3 @@
 export function loadOhmsLawContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "/img/OhmsLaw.png";
 }

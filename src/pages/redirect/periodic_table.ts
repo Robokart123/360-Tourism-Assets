@@ -1,3 +1,3 @@
 export function loadPeriodicTableContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "/img/PeriodicTable.png";
 }

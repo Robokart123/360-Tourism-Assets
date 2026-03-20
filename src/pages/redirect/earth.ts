@@ -1,3 +1,3 @@
 export function loadEarthContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "/img/Earth.png";
 }

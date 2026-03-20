@@ -1,3 +1,3 @@
 export function loadAsteroidsContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "/img/Asteroids.png";
 }

@@ -1,3 +1,3 @@
 export function loadBiologyContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "/img/Biology.png";
 }

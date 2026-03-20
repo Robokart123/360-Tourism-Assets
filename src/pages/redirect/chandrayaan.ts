@@ -1,3 +1,3 @@
 export function loadChandrayaanContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "/img/Chandrayaan.png";
 }

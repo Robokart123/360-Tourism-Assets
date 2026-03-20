@@ -1,3 +1,3 @@
 export function loadHumanEmbryoContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "/img/HumanEmbryo.png";
 }
