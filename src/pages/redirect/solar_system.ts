@@ -1,3 +1,3 @@
 export function loadSolarSystemContent() {
-  window.location.href = "assets/img/Solar.png";
+  window.location.href = "/img/Solar.png";
 }
