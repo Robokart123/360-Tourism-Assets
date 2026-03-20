@@ -1,3 +1,3 @@
 export function loadSolarSystemContent() {
-  window.location.replace("https://robokart.com");
+  window.location.href = "assets/img/Solar.png";
 }
