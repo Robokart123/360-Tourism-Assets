@@ -1,3 +1,1 @@
-export function loadSolarSystemContent() {
-  window.location.href = "/img/Solar.png";
-}
+export function loadSolarSystemContent() { window.location.replace("https://www.youtube.com/watch?v=libKVRa01L8"); }

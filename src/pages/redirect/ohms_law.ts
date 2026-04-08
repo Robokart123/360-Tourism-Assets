@@ -1,3 +1,1 @@
-export function loadOhmsLawContent() {
-  window.location.href = "/img/OhmsLaw.png";
-}
+export function loadOhmsLawContent() { window.location.replace("https://www.youtube.com/watch?v=HsLLq6Rm5tU"); }

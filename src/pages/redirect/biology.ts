@@ -1,3 +1,1 @@
-export function loadBiologyContent() {
-  window.location.href = "/img/Biology.png";
-}
+export function loadBiologyContent() { window.location.replace("https://www.youtube.com/watch?v=8duNwrqZGd4"); }

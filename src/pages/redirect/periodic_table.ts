@@ -1,3 +1,1 @@
-export function loadPeriodicTableContent() {
-  window.location.href = "/img/PeriodicTable.png";
-}
+export function loadPeriodicTableContent() { window.location.replace("https://www.youtube.com/watch?v=0RRVV4Diomg&t=151s"); }

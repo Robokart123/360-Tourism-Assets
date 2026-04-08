@@ -1,3 +1,1 @@
-export function loadEvolutionaryContent() {
-  window.location.href = "/img/Evolution.png";
-}
+export function loadEvolutionaryContent() { window.location.replace("https://www.youtube.com/watch?v=2W5hOJaFjxU"); }

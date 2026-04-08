@@ -1,3 +1,1 @@
-export function loadEarthContent() {
-  window.location.href = "/img/Earth.png";
-}
+export function loadEarthContent() { window.location.replace("https://www.youtube.com/watch?v=V-1pBFCX8cM"); }

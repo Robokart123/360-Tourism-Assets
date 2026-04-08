@@ -1,3 +1,1 @@
-export function loadBigBangContent() {
-  window.location.href = "/img/Big.png";
-}
+export function loadBigBangContent() { window.location.replace("https://www.youtube.com/watch?v=HdPzOWlLrbE"); }

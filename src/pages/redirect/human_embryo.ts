@@ -1,3 +1,1 @@
-export function loadHumanEmbryoContent() {
-  window.location.href = "/img/HumanEmbryo.png";
-}
+export function loadHumanEmbryoContent() { window.location.replace("https://www.youtube.com/watch?v=1zpV5rzWXMA"); }

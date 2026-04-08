@@ -1,3 +1,1 @@
-export function loadChandrayaanContent() {
-  window.location.href = "/img/Chandrayaan.png";
-}
+export function loadChandrayaanContent() { window.location.replace("https://www.youtube.com/watch?v=nbkE7Q42uZE"); }
