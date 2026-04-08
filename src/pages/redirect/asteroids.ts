@@ -1,3 +1,1 @@
-export function loadAsteroidsContent() {
-  window.location.href = "/img/Asteroids.png";
-}
+export function loadAsteroidsContent() { window.location.replace("https://www.youtube.com/watch?v=bS3TUj0bnXY"); }
